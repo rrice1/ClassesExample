@@ -17,7 +17,7 @@ namespace ClassesExamples
         const int MinRatingValue = 1;
         const int MaxRatingValue = 10;
 
-        //Consctructor
+        //Consctructor has to have same name as class
         public Candy(string flavor, string name, CandyType type)
         {
             Flavor = flavor;
@@ -28,7 +28,7 @@ namespace ClassesExamples
         //Methods
         public void SetRating(int userRating)
         {
-            if(userRating >= MinRatingValue && userRating <= MaxRatingValue)
+            if (userRating >= MinRatingValue && userRating <= MaxRatingValue)
             {
                 Rating = userRating;
             }
